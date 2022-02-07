@@ -4,7 +4,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
+before run you need to run `npm install` for download all dependencies in this project
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+for build : Run `ng build --prod` and then you have a dist folder.
+open directory in dist/jokes and then run `http-server -o` if command not found run `npx http-server`
 
 ## Code scaffolding
 
