@@ -1,0 +1,15 @@
+A. FIX ISSUE
+# ng build error: Invalid version: "15.2-15.3"
+Solution:
+- open file .browserlistrc
+- remove "last 2 Safari major versions"
+
+# open dir in dist folder and jokes and run http-server -o commad not found
+Solution:
+- npx http-server
+
+
+B. DEPENDENCIES
+# Install angular PWA
+ - ng add @angular/pwa or npm install @angular/pwa
+
